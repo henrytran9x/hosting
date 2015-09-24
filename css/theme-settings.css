@@ -1,0 +1,39 @@
+/* Color Radios */
+.color-radios input[type="radio"] {
+    display:none;
+}
+.color-radios .form-item{
+    display: inline-block;
+}
+.color-radios label {
+    display: inline-block !important;
+    width: 32px;
+    height: 32px;
+    border: 2px solid transparent !important;
+    text-indent: -9999px;
+}
+.color-radios input[type="radio"]:checked + label {
+    border: 2px solid #3d3d3d !important;
+}
+#edit-skin-turquoise + label{
+    background: #1abc9c;
+}
+#edit-skin-amethyst + label{
+    background: #9b59b6;
+}
+#edit-skin-carrot + label{
+    background: #e67e22;
+}
+#edit-skin-emerland + label{
+    background: #3ed37d;
+}
+#edit-skin-green + label{
+    background: #b2d231;
+}
+#edit-skin-alizarin + label{
+    background: #e74c3c;
+}
+#edit-skin-peter-river + label{
+    background: #3498db;
+}
+.layout-style .form-item{display:inline-block;margin-right: 10px !important;}

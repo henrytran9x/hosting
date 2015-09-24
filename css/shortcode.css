@@ -1,0 +1,66 @@
+.mod-shortcodes-box .box-icon { text-align: center; transform: rotate(0deg) scale(1) skew(0deg) translate(0px); transition: all 0.3s ease-out 0s }
+.mod-shortcodes-box.box-background .box-icon { background-color: #5f8cb4; border: 1px solid #5f8cb4; color: #fff }
+.mod-shortcodes-box:not(.box-background) .box-icon { color: #1abc9c }
+.mod-shortcodes-box.box-left .box-icon, .mod-shortcodes-box.box-right .box-icon { font-size: 21px; height: 48px; line-height: 48px; overflow: hidden; position: relative; width: 48px }
+.mod-shortcodes-box.box-left .box-icon span, .mod-shortcodes-box.box-right .box-icon span { left: 0; position: absolute; text-align: center; top: -49px; transition: top 0.3s linear 0s; width: 100% }
+.mod-shortcodes-box.box-left.box-none .box-icon, .mod-shortcodes-box.box-right.box-none .box-icon { font-size: 30px }
+.mod-shortcodes-box.box-left.box-none .box-icon span, .mod-shortcodes-box.box-right.box-none .box-icon span { top: -53px }
+.mod-shortcodes-box.box-left h3.box-title, .mod-shortcodes-box.box-right h3.box-title { font-size: 18px; font-weight: 300 }
+.mod-shortcodes-box.box-left .box-content, .mod-shortcodes-box.box-right .box-content { font-size: 13px }
+.mod-shortcodes-box.box-left:hover:not(.box-none) .box-icon span, .mod-shortcodes-box.box-right:hover:not(.box-none) .box-icon span { top: 0 }
+.mod-shortcodes-box.box-left.box-background:hover .box-icon, .mod-shortcodes-box.box-right.box-background:hover .box-icon { background: #fff none repeat scroll 0 0; color: #5f8cb4 }
+.mod-shortcodes-box.box-left.box-background:hover .box-icon span, .mod-shortcodes-box.box-right.box-background:hover .box-icon span { top: 0 }
+.mod-shortcodes-box.box-left .box-icon { float: left }
+.mod-shortcodes-box.box-left .box-title, .mod-shortcodes-box.box-left .box-content { margin-left: 70px }
+.mod-shortcodes-box.box-right .box-icon { float: right }
+.mod-shortcodes-box.box-right .box-title, .mod-shortcodes-box.box-right .box-content { margin-right: 70px; text-align: right }
+.mod-shortcodes-box.box-circle .box-icon { border: 1px solid #1abc9c; border-radius: 50% }
+.mod-shortcodes-box.box-square .box-icon { border: 1px solid #5f8cb4; border-radius: 5% }
+.mod-shortcodes-box.box-center:not(.box-none) .box-icon { font-size: 40px; height: 100px; line-height: 101px; margin: 0 auto; width: 100px }
+.mod-shortcodes-box.box-center:hover:not(.box-none) .box-icon { background: #1abc9c none repeat scroll 0 0; color: #fff }
+.mod-shortcodes-box.box-center:not(.box-none) h3.box-title { font-size: 24px; font-weight: 300; letter-spacing: -0.5px }
+.mod-shortcodes-box.box-center .box-title { margin: 30px 30px 0; text-align: center }
+.mod-shortcodes-box.box-center .box-content { margin: 10px 30px; text-align: center }
+.mod-shortcodes-box.box-center.box-none .box-icon { font-size: 95px; height: 102px }
+.mod-shortcodes-box.box-center.box-none h3.box-title { font-size: 20px; font-weight: 600; letter-spacing: -0.5px }
+.mod-shortcodes-box.box-center:hover .box-icon { transform: rotate(360deg) scale(1.1) skew(0deg) translate(0px) }
+.skill-bar .bar-wrap { background-color: #f1f1f1; margin-bottom: 13px; margin: 9px 0 23px }
+.skiil-bar .skill-bar-title { font-weight: 300; margin-bottom: 15px }
+.skill-bar .bar-wrap strong { background-color: #232d37; border-radius: 2px; color: #ffffff; display: block; font-size: 10px !important; line-height: 12px !important; padding: 4px 7px !important; position: absolute; right: 0; top: -25px }
+.skill-bar .bar-wrap strong::after { border-color: #232d37 rgba(0, 0, 0, 0); border-style: solid; border-width: 5px 5px 0; bottom: -4px; content: ""; display: block; left: 12px; position: absolute; width: 0 }
+.skill-bar span.background { background-color: #444; display: block; height: 28px; position: relative; transition: width 1.8s linear 0s; width: 0 }
+.countingWapper { text-align: center }
+.countingWapper .counting { font-size: 50px; margin: 15px 0 }
+.countingWapper .countingIcon { font-size: 90px; line-height: 1.3 }
+.countingWapper .countingTitle { font-size: 19px; font-weight: 400 }
+.countingWapper.counting-primary { color: #1abc9c }
+.countingWapper.counting-info { color: #269abc }
+.countingWapper.counting-success { color: #4cae4c }
+.countingWapper.counting-warning { color: #eea236 }
+.countingWapper.counting-danger { color: #d43f3a }
+.countingWapper.counting-white { color: #ffffff }
+.countingWapper.counting-black { color: #000000 }
+.pie-graph { text-align: center }
+.pie-graph .percent_loader { background-color: #1abc9c; border-radius: 50%; transition: all 0.2s ease-in-out 0s }
+.pie-graph .percent_loader:hover { background: #81E7D3 none repeat scroll 0 0 }
+.pie-graph h3 { color: #333333; font-family: "raleway"; font-size: 16px; font-weight: 300; text-align: center }
+.dexp_tab_wrapper .nav-tabs { border-bottom: none }
+.dexp_tab_wrapper .nav-tabs li { margin-right: 0; overflow: visible; padding: 0 }
+.dexp_tab_wrapper .nav-tabs li.active a { background-color: #169d82 !important; color: #fff; border: none }
+.dexp_tab_wrapper .nav-tabs li a { background-color: #1abc9c; border-radius: 0px; color: #fff; display: block; outline: medium none; margin-right: 0px; border: none; text-decoration: none; font-weight: 100; padding: 15px 35px; position: relative; z-index: 0; -webkit-transform: skewX(-25deg) skewY(0deg); -ms-transform: skewX(-25deg) skewY(0deg); -o-transform: skewX(-25deg) skewY(0deg); transform: skewX(-25deg) skewY(0deg); transition: all 0.2s ease-in-out 0s }
+.dexp_tab_wrapper .nav-tabs li a > * { display: inline-block; -webkit-transform: skewX(25deg) skewY(0deg); -ms-transform: skewX(25deg) skewY(0deg); -o-transform: skewX(25deg) skewY(0deg); transform: skewX(25deg) skewY(0deg) }
+.dexp_tab_wrapper .nav-tabs li a:hover, .dexp_tab_wrapper .nav-tabs li a:focus { background-color: #169d82; border-color: #169d82 }
+.dexp_tab_wrapper .tab-content { border: none; padding: 15px 0px }
+.services-box { display: block; position: relative; z-index: 2 }
+.services-box-animated { text-align: center; width: 100%; height: auto; background: transparent; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden }
+.services-box-animated .inner { -webkit-perspective: 100px; -moz-perspective: 100px; -ms-perspective: 100px; perspective: 100px; -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d; transform-style: preserve-3d; -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 0 !important; -moz-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 0s !important; -o-transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 0 !important; transition: all 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 0 !important }
+.services-box-animated .front, .services-box-animated .back { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden }
+.services-box-animated .front { -ms-transform: rotateY(0deg); z-index: 8; display: block; width: 100%; height: auto; border: 1px solid #eceef0; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; padding: 60px 20px; webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box }
+.services-box-animated .back { -webkit-transform: rotateY(-180deg); -moz-transform: rotateY(-180deg); -ms-transform: rotateY(-180deg); -o-transform: rotateY(-180deg); transform: rotateY(-180deg); overflow: hidden; color: #fff; background: #fff; border: 1px solid #eceef0; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; position: absolute; left: 0; top: 0; display: block; width: 100%; height: 100%; padding: 20px; webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box }
+.services-box-animated .front i { font-size: 80px; text-align: center }
+.services-box-animated .front h3 { margin: 10px 0; font-weight: 200 }
+.services-box-animated .back h3 { color: #fff; font-weight: 200; margin: 10px 0 }
+.services-box-animated .back p { color: #fff; margin: 10px 0 }
+.services-box-animated:hover .inner, .no-csstransitions .services-box-animated .inner { -webkit-transform: rotateY(-180deg); -moz-transform: rotateY(-180deg); -ms-transform: rotateY(-180deg); -o-transform: rotateY(-180deg); transform: rotateY(-180deg) }
+.services-box-animated:hover .front { z-index: -1 }
+.services-box .back:hover { background: #5F8CB4; border-color: #5F8CB4; border-radius: 3px }

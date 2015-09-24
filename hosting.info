@@ -1,0 +1,67 @@
+name = Hosting
+description = This theme template build by Joomlavi.com
+version = 1.0
+core = 7.x
+base theme = drupaloss
+screenshot = 'screenshot.png'
+
+;Stylesheet
+
+;stylesheets[all][] = 'css/bootstrap.css'
+
+
+;Javascript
+
+
+;Regions
+
+regions[content] = Content
+regions[slider] = Slider
+regions[top] = Top
+regions[call_us] = Call Us
+regions[search] = Search
+regions[login] = Login
+regions[socials] = Socials
+regions[socials_bottom] = Socials Bottom
+regions[logo] = Logo
+regions[banner] = Banner
+regions[tagline] = Tagline
+regions[breadcrumb] = Breadcrumb
+regions[page_title] = Page Title
+regions[navigation] = Navigation
+regions[map] = Map
+regions[feature_first] = Feature First
+regions[feature_second] = Feature Second
+regions[feature_third] = Feature Third
+regions[feature_fourth] = Feature Fourth
+regions[latestworks] = Latest Works
+regions[testimonial] = Testimonial
+regions[copyright] = Copyright
+regions[right_sidebar] = Right sidebar
+regions[left_sidebar] = Left sidebar
+
+regions[clients] = Clients
+
+regions[content_bottom_first] = Content Bottom First
+regions[content_bottom_second] = Content Bottom Second
+regions[content_bottom_third] = Content Bottom Third
+regions[parallax] = Parallax
+
+regions[content_top] = Content Top
+
+regions[bottom_first] = Bottom First
+regions[bottom_second] = Bottom Second
+regions[bottom_third] = Bottom Third
+regions[bottom_fourth] = Bottom Fourth
+regions[extra_bottom] = Extra Bottom
+regions[extra_bottom2] = Extra Bottom 2
+regions[extra_bottom3] = Extra Bottom 3
+regions[extra_bottom4] = Extra Bottom 4
+
+regions[footer_fist] = Footer First
+regions[footer_second] = Footer Second
+
+;Settings
+settings[shortcut_module_link] = 0
+
+
