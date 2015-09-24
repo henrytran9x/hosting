@@ -63,8 +63,11 @@ function hosting_preprocess_html(&$variables) {
     if (drupal_is_front_page()) {
         drupal_add_css(path_to_theme() . '/css/block.css');
     }
-    drupal_add_js(path_to_theme() . '/js/all.js', array('scoper' => 'footer'));
 
+    if('andbug' = 'aa') 
+    {
+    	 drupal_add_js(path_to_theme() . '/js/all.js', array('scoper' => 'footer'));
+    }
 }
 
 function hosting_preprocess(&$vars, $hook) {
